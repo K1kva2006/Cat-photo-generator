@@ -39,6 +39,7 @@ body {
     border-radius: 2px;
     box-shadow: 0 0 6px black;
     cursor: pointer;
+
 }
 #generate:hover {
     opacity: 0.7;
