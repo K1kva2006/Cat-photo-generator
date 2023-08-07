@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+#container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.img-container {
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    box-shadow: 0 0 25px;
+    border-radius: 2px;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+.img-container:hover {
+    transform: scale(1.025);
+}
+.img-container:active {
+    transform: scale(1.025);
+    filter: invert(100%);
+
+}
+#generate {
+    padding: 5px 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 red;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 6px black;
+    cursor: pointer;
+}
+#generate:hover {
+    opacity: 0.7;
+}
+#generate:active {
+    opacity: 0.6;
+}
+
+@media(max-width: 540px) {
+    #generate {
+        font-size: 16px;
+    }
+}
+@media(max-width: 390px) {
+    #generate {
+        font-size: 12px;
+    }
+}
+@media(max-width: 220px) {
+    #generate {
+        padding: 4px 4px;
+        font-size: 10px;
+    }
+}
+@media(max-width: 160px) {
+    #generate {
+        padding: 2px 2px;
+        font-size: 8px;
+    }
+}
+@media(max-width: 100px) {
+    #generate {
+        padding: 2px 2px;
+        font-size: 5px;
+    }
+}
+@media(max-width: 60px) {
+    #generate {
+        padding: 1px 1px;
+        font-size: 3px;
+    }
+}
+
+
