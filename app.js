@@ -22,7 +22,7 @@ fetch(url)
 
 setTimeout(() => {
     generate.style.display = "block"
-}, 1500)
+}, 1000)
 generate.addEventListener("click", () => {
     window.location.reload();
 });
